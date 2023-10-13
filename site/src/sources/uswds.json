@@ -1,0 +1,580 @@
+{
+  "$schema": "../schemas/design-system.schema.json",
+  "name": "U.S. Web Design System (USWDS)",
+  "description": "USWDS is a design system for the federal government. We make it easier to build accessible, mobile-friendly government websites.",
+  "url": "https://designsystem.digital.gov/",
+  "by": "U.S. government",
+  "components": [
+    {
+      "name": "Accordion",
+      "url": "https://designsystem.digital.gov/components/accordion/",
+      "definition": "An accordion is a list of headers that hide or reveal additional content when selected.",
+      "concepts": [
+        {
+          "name": "bordered",
+          "description": "Display a border around accordion content."
+        },
+        {
+          "name": "multiselectable"
+        }
+      ]
+    },
+    {
+      "name": "Alert",
+      "url": "https://designsystem.digital.gov/components/alert/",
+      "definition": "An alert keeps users informed of important and sometimes time-sensitive changes.",
+      "concepts": [
+        {
+          "name": "info",
+          "description": "Display an informational status alert."
+        },
+        {
+          "name": "warning",
+          "description": "Display an warning status alert."
+        },
+        {
+          "name": "error",
+          "description": "Display an error status alert."
+        },
+        {
+          "name": "success",
+          "description": "Display an success status alert."
+        },
+        {
+          "name": "slim",
+          "description": "Display a slimmer version of the alert."
+        },
+        {
+          "name": "no-icon",
+          "description": "Display an alert without an icon."
+        }
+      ]
+    },
+    {
+      "name": "Banner",
+      "url": "https://designsystem.digital.gov/components/banner/",
+      "definition": "Banners identify official websites of government organizations in the United States. They also help visitors understand whether a website is official and secure."
+    },
+    {
+      "name": "Breadcrumb",
+      "url": "https://designsystem.digital.gov/components/breadcrumb/",
+      "definition": "Breadcrumbs provide secondary navigation to help users understand where they are in a website.",
+      "concepts": [
+        {
+          "name": "wrap",
+          "description": "Wrap the breadcrumb bar instead of truncating."
+        }
+      ]
+    },
+    {
+      "name": "Button",
+      "url": "https://designsystem.digital.gov/components/button/",
+      "definition": "A button draws attention to important actions with a large selectable surface.",
+      "concepts": [
+        {
+          "name": "secondary",
+          "description": "Button uses secondary color."
+        },
+        {
+          "name": "accent-cool",
+          "description": "Button uses accent-cool color."
+        },
+        {
+          "name": "accent-warm",
+          "description": "Button uses accent-warm color."
+        },
+        {
+          "name": "base",
+          "description": "Button uses base color."
+        },
+        {
+          "name": "outline",
+          "description": "Transparent button with a color stroke."
+        },
+        {
+          "name": "inverse",
+          "description": "Light color button for dark backgrounds."
+        },
+        {
+          "name": "big",
+          "description": "A bigger button."
+        },
+        {
+          "name": "unstyled",
+          "description": "A button that looks like a link."
+        }
+      ]
+    },
+    {
+      "name": "Button group",
+      "url": "https://designsystem.digital.gov/components/button-group/",
+      "definition": "A button group collects similar or related actions.",
+      "concepts": [
+        {
+          "name": "default",
+          "description": "The default button group arranges each button as a separate element with a gap between them. On mobile devices, the buttons are arranged vertically."
+        },
+        {
+          "name": "segmented",
+          "description": "Segmented button groups display a set of discrete buttons in a row as a single element."
+        }
+      ]
+    },
+    {
+      "name": "Card",
+      "url": "https://designsystem.digital.gov/components/button-group/",
+      "definition": "Cards contain content and actions about a single subject.",
+      "concepts": [
+        {
+          "name": "flag",
+          "description": "Display in a horizontal (“flag”) orientation at a specified width."
+        },
+        {
+          "name": "header-first",
+          "description": "Displays the header element before the media element."
+        },
+        {
+          "name": "media-right",
+          "description": "In combination with `flag`, sets the media element on the right. (Flag cards display media on the left by default.)"
+        },
+        {
+          "name": "media-inset",
+          "description": "Indents the media element so it doesn’t extend to the edge of the card."
+        },
+        {
+          "name": "body-exdent",
+          "description": "Extends the body element out over the card border. Useful for light-bordered cards."
+        },
+        {
+          "name": "footer-exdent",
+          "description": "Extends the footer element out over the card border. Useful for light-bordered cards."
+        },
+        {
+          "name": "header-exdent",
+          "description": "Extends the header element out over the card border. Useful for light-bordered cards."
+        },
+        {
+          "name": "media-exdent",
+          "description": "Extends the media element out over the card border. Useful for light-bordered cards."
+        }
+      ]
+    },
+    {
+      "name": "Character count",
+      "url": "https://designsystem.digital.gov/components/character-count/",
+      "definition": "Character count helps users know how much text they can enter when there is a limit on the number of characters.",
+      "concepts": [
+        {
+          "name": "character-count",
+          "description": "Character count helps users know how much text they can enter when there is a limit on the number of characters."
+        }
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "url": "https://designsystem.digital.gov/components/checkbox/",
+      "definition": "Checkboxes allow users to select one or more options from a list."
+    },
+    {
+      "name": "Collection",
+      "url": "https://designsystem.digital.gov/components/collection/",
+      "definition": "A collection displays a compact list of multiple related items like articles or events. The list links each item to its original source.",
+      "concepts": [
+        {
+          "name": "condensed",
+          "description": "A more condensed item presentation with less space between items."
+        }
+      ]
+    },
+    {
+      "name": "Combo box",
+      "openUIName": "Combobox",
+      "url": "https://designsystem.digital.gov/components/combo-box/",
+      "definition": "A combo box helps users select an item from a large list of options."
+    },
+    {
+      "name": "Date picker",
+      "openUIName": "Datepicker",
+      "url": "https://designsystem.digital.gov/components/date-picker/",
+      "definition": "A date picker helps users select a single date."
+    },
+    {
+      "name": "Date range picker",
+      "openUIName": "Datepicker",
+      "url": "https://designsystem.digital.gov/components/date-range-picker/",
+      "definition": "A date range picker helps users select a range between two dates.",
+      "concepts": [
+        {
+          "name": "range",
+          "description": "A date range picker helps users select a range between two dates."
+        }
+      ]
+    },
+    {
+      "name": "File input",
+      "openUIName": "File",
+      "url": "https://designsystem.digital.gov/components/file-input/",
+      "definition": "File input allows users to attach one or multiple files."
+    },
+    {
+      "name": "Footer",
+      "url": "https://designsystem.digital.gov/components/footer/",
+      "definition": "A footer serves site visitors who arrive at the bottom of a page without finding what they want.",
+      "concepts": [
+        {
+          "name": "big",
+          "description": "A multi-column footer that expands and collapses on mobile."
+        },
+        {
+          "name": "slim",
+          "description": "A compact version of the footer."
+        }
+      ]
+    },
+    {
+      "name": "Form",
+      "url": "https://designsystem.digital.gov/components/form/",
+      "definition": "A form allows users to enter information into a page."
+    },
+    {
+      "name": "Layout Grid",
+      "url": "https://designsystem.digital.gov/utilities/layout-grid/",
+      "definition": "Use our flexible grid system to structure website content. The grid is mobile-first, powered by flexbox, and based on a 12-column system."
+    },
+    {
+      "name": "Header",
+      "url": "https://designsystem.digital.gov/components/header/",
+      "definition": "A header helps users identify where they are and provides a quick, organized way to reach the main sections of a website.",
+      "concepts": [
+        {
+          "name": "basic",
+          "description": "Display a simple header."
+        },
+        {
+          "name": "megamenu",
+          "description": "Display a megamenu."
+        },
+        {
+          "name": "extended",
+          "description": "Display an extended header."
+        }
+      ]
+    },
+    {
+      "name": "Icon",
+      "url": "https://designsystem.digital.gov/components/icon/",
+      "definition": "Icons help communicate meaning, actions, status, or feedback.",
+      "concepts": [
+        {
+          "name": "size-3",
+          "description": "3 unit x 3 unit icon."
+        },
+        {
+          "name": "size-4",
+          "description": "4 unit x 4 unit icon."
+        },
+        {
+          "name": "size-5",
+          "description": "5 unit x 5 unit icon."
+        },
+        {
+          "name": "size-6",
+          "description": "6 unit x 6 unit icon."
+        },
+        {
+          "name": "size-7",
+          "description": "7 unit x 7 unit icon."
+        },
+        {
+          "name": "size-8",
+          "description": "8 unit x 8 unit icon."
+        },
+        {
+          "name": "size-9",
+          "description": "9 unit x 9 unit icon."
+        }
+      ]
+    },
+    {
+      "name": "Icon list",
+      "url": "https://designsystem.digital.gov/components/icon-list/",
+      "definition": "An icon list reinforces the meaning and visibility of individual list items with a leading icon."
+    },
+    {
+      "name": "Identifier",
+      "url": "https://designsystem.digital.gov/components/identifier/",
+      "definition": "The identifier communicates a site’s parent agency and displays agency links required by federal laws and policies."
+    },
+    {
+      "name": "In-page navigation",
+      "url": "https://designsystem.digital.gov/components/in-page-navigation/",
+      "definition": "The in-page navigation allows navigation to specific sections on a lengthy content page."
+    },
+    {
+      "name": "Input mask",
+      "openUIName": "InputText",
+      "url": "https://designsystem.digital.gov/components/input-mask/",
+      "definition": "An input mask is a string expression that constrains input to support valid input values."
+    },
+    {
+      "name": "Input prefix or suffix",
+      "openUIName": "InputText",
+      "url": "https://designsystem.digital.gov/components/input-prefix-suffix/"
+    },
+    {
+      "name": "Language selector",
+      "url": "https://designsystem.digital.gov/components/language-selector/",
+      "definition": "The consistent placement, interface, and behavior of the language selection component allows users to easily find and access content in the language the user is most comfortable in."
+    },
+    {
+      "name": "Link",
+      "url": "https://designsystem.digital.gov/components/link/",
+      "definition": "A link connects users to a different page or further information.",
+      "concepts": [
+        {
+          "name": "external",
+          "description": "Display an external link icon after the link."
+        }
+      ]
+    },
+    {
+      "name": "List",
+      "url": "https://designsystem.digital.gov/components/list/",
+      "definition": "A list organizes information into discrete sequential sections.",
+      "concepts": [
+        {
+          "name": "ordered"
+        },
+        {
+          "name": "unordered"
+        },
+        {
+          "name": "unstyled"
+        }
+      ]
+    },
+    {
+      "name": "Memorable date",
+      "url": "https://designsystem.digital.gov/components/memorable-date/",
+      "definition": "A select for month followed by two text fields is the easiest way for users to enter most dates."
+    },
+    {
+      "name": "Modal",
+      "url": "https://designsystem.digital.gov/components/modal/",
+      "definition": "A modal disables page content and focuses the user’s attention on a single task or message.",
+      "concepts": [
+        {
+          "name": "lg",
+          "description": "Larger window and larger heading size on wider screens."
+        }
+      ]
+    },
+    {
+      "name": "Pagination",
+      "url": "https://designsystem.digital.gov/components/pagination/",
+      "definition": "Pagination is navigation for paginated content."
+    },
+    {
+      "name": "Process list",
+      "url": "https://designsystem.digital.gov/components/process-list/",
+      "definition": "A process list displays the steps or stages of important instructions or processes."
+    },
+    {
+      "name": "prose",
+      "url": "https://designsystem.digital.gov/components/prose/",
+      "definition": "Format a block of running text."
+    },
+    {
+      "name": "Radio buttons",
+      "url": "https://designsystem.digital.gov/components/radio-buttons/",
+      "definition": "Radio buttons allow users to select exactly one choice from a group.",
+      "concepts": [
+        {
+          "name": "tile",
+          "description": "Input tiles provide a larger interaction area and neatly group the label with the form control for readability. They’re useful in application forms and questionnaires, but may not be recommended when they create clutter on the page."
+        }
+      ]
+    },
+    {
+      "name": "Range slider",
+      "url": "https://designsystem.digital.gov/components/range-slider/",
+      "definition": "A range slider allows users to choose an approximate number from a range."
+    },
+    {
+      "name": "Search",
+      "url": "https://designsystem.digital.gov/components/search/",
+      "definition": "Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation",
+      "concepts": [
+        {
+          "name": "big",
+          "description": "Search component with increased padding and font-size."
+        },
+        {
+          "name": "small",
+          "description": "A compact variation of the search. Uses a magnifying glass icon for the submit button."
+        }
+      ]
+    },
+    {
+      "name": "Select",
+      "url": "https://designsystem.digital.gov/components/select/",
+      "definition": "A select component allows users to choose one option from a temporary modal menu."
+    },
+    {
+      "name": "Side navigation",
+      "url": "https://designsystem.digital.gov/components/side-navigation/",
+      "definition": "Hierarchical, vertical navigation to place at the side of a page."
+    },
+    {
+      "name": "Site alert",
+      "url": "https://designsystem.digital.gov/components/site-alert/",
+      "definition": "A site alert communicates urgent sitewide information.",
+      "concepts": [
+        {
+          "name": "info",
+          "description": "Displays an information site alert."
+        },
+        {
+          "name": "emergency",
+          "description": "Displays an emergency site alert."
+        },
+        {
+          "name": "slim",
+          "description": "Display a slimmer version of the site alert."
+        },
+        {
+          "name": "no-icon",
+          "description": "Display an site alert without an icon."
+        }
+      ]
+    },
+    {
+      "name": "Step indicator",
+      "url": "https://designsystem.digital.gov/components/step-indicator/",
+      "definition": "A step indicator updates users on their progress through a multi-step process.",
+      "concepts": [
+        {
+          "name": "no-labels",
+          "description": "Don’t show step labels."
+        },
+        {
+          "name": "counters",
+          "description": "Show step counters."
+        },
+        {
+          "name": "counters-sm",
+          "description": "Show small step counters"
+        },
+        {
+          "name": "center",
+          "description": "Center counters and labels in each step."
+        }
+      ]
+    },
+    {
+      "name": "Summary box",
+      "url": "https://designsystem.digital.gov/components/summary-box/",
+      "definition": "A summary box highlights key information from a longer page or displays next steps."
+    },
+    {
+      "name": "Table",
+      "url": "https://designsystem.digital.gov/components/table/",
+      "definition": "A table shows information in columns and rows.",
+      "concepts": [
+        {
+          "name": "borderless",
+          "description": "Removes the outer table borders, retaining only a single bottom border on each row. Best for tables with more text than numbers."
+        },
+        {
+          "name": "compact",
+          "description": "Reduces the row height and vertical spacing to display more table rows within a limited space. Should only be used with dense, numerical data, not text content. Pairs well with scrollable and striped variants, but is not suitable for use with stacked variants."
+        },
+        {
+          "name": "scrollable",
+          "description": "Apply a horizontal scrollbar if the columns exceed the available width. Ideal for dense tables with many columns."
+        },
+        {
+          "name": "stacked",
+          "description": "Stacks the table cells on narrow screens. Ideal for tables that contain more text information than numerical data. If you use this variant, you must ensure there is a data-label attribute on each cell of the table that matches the column header."
+        },
+        {
+          "name": "stacked-header",
+          "description": "Stacks the table cells on narrow screens and visually promotes the first cell of every row into a “header” for that group. Preferred for directories and other lists where the first cell of every row is a name. If you use this variant, you must ensure there is a data-label attribute on each cell of the table that matches the column header."
+        },
+        {
+          "name": "striped",
+          "description": "Applies alternating horizontal striping to help the eye track across table rows. Pairs well with the scrollable variant for tables with many columns."
+        }
+      ]
+    },
+    {
+      "name": "Tag",
+      "url": "https://designsystem.digital.gov/components/tag/",
+      "definition": "A tag draws attention to new or categorized content elements.",
+      "concepts": [
+        {
+          "name": "big",
+          "description": "A tag with increased padding and font size."
+        }
+      ]
+    },
+    {
+      "name": "Text Input",
+      "url": "https://designsystem.digital.gov/components/text-input/",
+      "definition": "A text input allows users to enter any combination of letters, numbers, or symbols. Text input boxes can span single or multiple lines.",
+      "concepts": [
+        {
+          "name": "error",
+          "description": "The error state of the text input."
+        },
+        {
+          "name": "success",
+          "description": "The success state of the text input."
+        },
+        {
+          "name": "2xs",
+          "description": "Displays an input at a specific width."
+        },
+        {
+          "name": "xs",
+          "description": "Displays an input at a specific width."
+        },
+        {
+          "name": "sm",
+          "description": "Displays an input at a specific width."
+        },
+        {
+          "name": "md",
+          "description": "Displays an input at a specific width."
+        },
+        {
+          "name": "lg",
+          "description": "Displays an input at a specific width."
+        },
+        {
+          "name": "xl",
+          "description": "Displays an input at a specific width."
+        },
+        {
+          "name": "2xl",
+          "description": "Displays an input at a specific width."
+        }
+      ]
+    },
+    {
+      "name": "Time picker",
+      "url": "https://designsystem.digital.gov/components/time-picker/",
+      "definition": "A time picker helps users select a specific time."
+    },
+    {
+      "name": "Tooltip",
+      "url": "https://designsystem.digital.gov/components/tooltip/",
+      "definition": "A tooltip is a short descriptive message that appears when a user hovers or focuses on an element."
+    },
+    {
+      "name": "Validation",
+      "url": "https://designsystem.digital.gov/components/validation/",
+      "definition": "Stating validation requirements up front, with live feedback, means users won’t be left guessing."
+    }
+  ]
+}
